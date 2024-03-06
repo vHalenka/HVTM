@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 import ssl
 
-import clause_print_helper
 
 ssl._create_default_https_context = ssl._create_unverified_context
 from keras.datasets import cifar10
